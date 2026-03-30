@@ -146,11 +146,27 @@
       <ul class="footer-links">
         <li><a href="/">All Extensions</a></li>
         <li><a href="https://github.com/CodeWarrior4Life" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="mailto:info@crossroadtech.com">Contact</a></li>
+        <li><a href="mailto:info@codewarrior4life.com">Contact</a></li>
       </ul>
       <p class="footer-copy">&copy; 2026 Crossroads Technologies, LLC. All rights reserved.</p>
     </footer>
 
   </div>
+
+  <script>
+    // Detect browser and highlight the matching install button
+    (function() {
+      var ua = navigator.userAgent;
+      var btn;
+      if (/Edg\//i.test(ua)) {
+        btn = document.querySelector('.btn-install-edge');
+      } else if (/Firefox\//i.test(ua)) {
+        btn = document.querySelector('.btn-install-firefox');
+      } else if (/Chrome\//i.test(ua)) {
+        btn = document.querySelector('.btn-install-chrome');
+      }
+      if (btn) btn.classList.add('btn-install-primary');
+    })();
+  </script>
 </body>
 </html>
