@@ -1,0 +1,23 @@
+[
+  {
+    "id": "extension-janitor",
+    "name": "Extension Janitor",
+    "tagline": "Find what's slowing your browser. Fix it in one click.",
+    "description": "Scans for orphaned entries, heavyweight extensions, and stale caches. Deep Clean disables bloat and clears junk. Pro finishes the job with a verified native tool that cleans what extensions can't touch.",
+    "icon": "icon.png",
+    "features": [
+      "Instant health score for your browser",
+      "Detects orphaned and heavyweight extensions",
+      "One-click cache clearing",
+      "Deep Clean mode with live progress feed",
+      "Pro: native cleanup tool for disk-level caches"
+    ],
+    "stores": {
+      "chrome": "",
+      "firefox": "",
+      "edge": ""
+    },
+    "color": "#4ecca3",
+    "status": "live"
+  }
+]
